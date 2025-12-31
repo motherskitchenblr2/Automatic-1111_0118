@@ -1,0 +1,24 @@
+name: automatic-1111
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - nodejs
+  - git
+  - gcc_linux-64
+  - libffi
+  - openssl
+  - pip:
+    - -r requirements.txt
+    - flake8
+    - black
+    - pytest
+    - pre-commit
+    - typing-extensions
+
+# Notes:
+# - This environment creates a Python 3.10 environment and installs common dev tools via pip.
+# - If you maintain a requirements.txt, it will be installed into the conda environment.
+# - Adjust/add packages as needed for the project.
