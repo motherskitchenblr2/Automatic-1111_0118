@@ -13,7 +13,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: Warning marge into master
+      - name: Warning merge into master
         run: |
           echo -e "::warning::This pull request directly merge into \"master\" branch, normally development happens on \"dev\" branch."
           exit 1

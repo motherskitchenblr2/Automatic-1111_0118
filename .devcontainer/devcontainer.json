@@ -2,7 +2,7 @@
   "name": "Stable Diffusion WebUI",
   "image": "mcr.microsoft.com/devcontainers/python:3.10",
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "postCreateCommand": "pip install --upgrade pip",
   "remoteUser": "vscode",
